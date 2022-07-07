@@ -3,6 +3,7 @@ package com.jps.microservices.limitsservice;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
+//config mapping bean
 @Component
 @ConfigurationProperties("limits-service")
 public class Configuration {
